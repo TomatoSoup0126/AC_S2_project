@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="container">
+    <div class="m-5">
+      <header class="mb-3">
+        <h4>My Todo</h4>
+        <div class="form-inline">
+          <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+          <button id="addBtn" class="btn btn-info">Add</button>
+          <button id="allCheck" class="btn btn-success">All Check</button>
+          <button id="allUncheck" class="btn btn-secondary">All Uncheck</button>
+        </div>
+      </header>
+      <ul id="my-todo" class="list-unstyled">
+        <!-- display todos here -->
+      </ul>
+    </div>
+
+    <div class="m-5">
+      <header class="mb-3">
+        <h4>Done</h4>
+      </header>
+      <ul id="my-done" class="list-unstyled">
+        <!-- display dones here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
